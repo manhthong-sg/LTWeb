@@ -1,0 +1,36 @@
+.menulist li{
+    display: inline-block;
+}
+.menulist{
+    list-style: none;
+}
+.menulist a{
+    text-decoration: none;
+}
+/* -----------Droplist Home below------------ */
+.home{
+    background-color: black;
+    color: white;
+    padding:20px;
+    margin-top:20px;
+}
+.home:hover{
+    background-color: red;
+}
+.home-child{
+    display: none;
+    background-color: black;
+    min-width: 200px;
+}
+.home-child a:hover{
+    background-color: orangered;
+}
+.home-child a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.home:hover .home-child{
+    display: block;
+}

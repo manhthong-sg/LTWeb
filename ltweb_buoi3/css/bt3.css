@@ -1,0 +1,54 @@
+
+.button{
+    background-color: rgb(33, 86, 199);
+    width: 200px;
+    border-radius: 7px;
+    margin: 0 auto;
+    padding-top: 1;
+    text-align: center;
+    transition: 1.2s;
+}
+.button:hover{
+    background-color: aquamarine;
+    
+}
+.button a{
+    font-size: 22px;
+    font-family: cursive;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+/* ------------Button 2------------- */
+.button2{
+    background-color: #0D90E2;
+    width: 200px;
+    height: 40px;
+    border-radius: 7px;
+    margin: 0 auto;
+    transition: 1.2s;
+    position: relative;
+}
+.button2 a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-decoration: none;
+}
+.box{
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    width: 180px;
+    height:45;
+    font-size: 20px;
+    border-radius: 7px;
+    border: 2px white dashed;
+    font-weight: bold;
+    padding-top: auto;
+    text-align: center;
+}
+.button2:hover{
+    background-color: rgb(247, 180, 80);
+    
+}

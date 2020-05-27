@@ -1,0 +1,10 @@
+table{
+    width: 300px;
+    border: black 1px solid;
+}
+.header{
+    background-color: rgb(182, 182, 182);
+}
+tr:nth-child(even){
+    background-color: greenyellow;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bai 1b</title>
+        <style>
+            .div1{
+                width: 300px;
+                height: 400px;
+            }
+            button{
+                margin-left: 150px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="div1">
+            <table class="tb1">
+                <tr>
+                    <td><label for"">Số bị chia</label></td>
+                    <td><input type="text" id="sobichia"></td>
+                </tr>
+                <tr>
+                    <td><label for"">Số chia</label></td>
+                    <td><input type="text" id="sochia"></td>
+                </tr>
+                <tr>
+                    <td><label for"" id="kq" >Kết quả</label></td>
+                    <td><input type="text" id="thuong" disabled></td>
+                </tr>
+            </table>
+                <button type="button" onclick='TinhThuong();'>caculate</button>
+        </div>
+        <script>
+            function TinhThuong(x,y)
+            { 
+                var x=document.getElementById('sobichia').value;
+                var y=document.getElementById('sochia').value;
+                x=parseFloat(x);
+                y=parseFloat(y);
+                var kq=x/y;
+                kq=parseFloat(kq);
+                if(isNaN(kq))
+                {
+                 alert("Cả 2 phải là số");
+                }
+                else
+                {
+                    document.getElementById('thuong').value=kq;
+                }
+            }
+        </script>
+    </body>
+</html>

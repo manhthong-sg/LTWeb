@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../css/bt2.css">
+
+</head>
+
+<body>
+    <div class="toggledemo">
+        <h2>JavaScript FAQs</h2>
+        <div class="demuc1">
+            <img onclick="myFunction1()" width="20px" src="../img/plusIcon.png" alt="">
+            <p>What is JavaScript?</p>
+            <div id="hiding1">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                At maxime sequi illum expedita assumenda repudiandae fuga quis sed, adipisci,
+                doloribus accusantium perspiciatis! Sequi illum quod vitae? Iusto laborum earum quo.
+            </div>
+        </div>
+        <div class="demuc2">
+            <img onclick="myFunction2()" width="20px" src="../img/plusIcon.png" alt="">
+
+            <p>What is jQuery?</p>
+            <div id="hiding2">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                At maxime sequi illum expedita assumenda repudiandae fuga quis sed, adipisci,
+                doloribus accusantium perspiciatis! Sequi illum quod vitae? Iusto laborum earum quo.
+            </div>
+        </div>
+        <div class="demuc3">
+            <img onclick="myFunction3()" width="20px" src="../img/plusIcon.png" alt="">
+
+            <p>What is jQuery becoming so popular ?</p>
+            <div id="hiding3">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                At maxime sequi illum expedita assumenda repudiandae fuga quis sed, adipisci,
+                doloribus accusantium perspiciatis! Sequi illum quod vitae? Iusto laborum earum quo.
+            </div>
+        </div>
+    </div>
+    <script>
+        function myFunction1() {
+            var x = document.getElementById("hiding1");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            }
+             else {
+                x.style.display = "none";
+            }
+        }
+        function myFunction2() {
+            var x = document.getElementById("hiding2");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            }
+             else {
+                x.style.display = "none";
+            }
+        }
+        function myFunction3() {
+            var x = document.getElementById("hiding3");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            }
+             else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>

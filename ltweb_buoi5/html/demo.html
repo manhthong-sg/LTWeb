@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+    input{
+        width: 300px;
+        display: block;
+    }
+</style>
+</head>
+
+<body>
+    <label for="">Chiều dài: </label>
+    <input type="text" id="chieudai">
+    <br>
+    <label for="">Chiều rộng: </label>
+    <input type="text" id="chieurong">
+    <br>
+    <label for="">Chu vi hcn: </label>
+    <input id="ketqua" disabled>
+    <br>
+    <button onclick="tinhChuVi()" value="" id="kq">Kq:</button>
+    <script>
+
+        function tinhChuVi() {
+            var x = document.getElementById('chieudai').value;
+            x = parseFloat(x);
+
+            var y = document.getElementById('chieurong').value;
+            y = parseFloat(y);
+            
+            var ketqua = 2 * (x + y);
+            ketqua=ketqua.toFixed(2)  
+            document.getElementById('ketqua').value=ketqua;
+            return ketqua;
+        }
+
+    </script>
+</body>
+
+</html>

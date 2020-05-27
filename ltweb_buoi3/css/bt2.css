@@ -1,0 +1,22 @@
+
+.dva span{
+    color: aqua;
+}
+.dva{
+    text-align: center;
+    
+}
+.dvb p::first-line{
+    color: aqua;
+}
+.dvb p::first-letter{
+    font-size: 20px;
+    color: rgb(90, 51, 230);
+    font-weight: bold;
+}
+.dvc p:first-child{
+    color: aqua;
+}
+.dvc p:last-child {
+    color: aqua;
+}

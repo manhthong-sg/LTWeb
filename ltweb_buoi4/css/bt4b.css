@@ -1,0 +1,105 @@
+.form{
+    width: 600px;
+    background-color: #F2F2F2;
+    height: 500px;
+    margin: 50px auto;
+    border-radius: 3%;
+}
+h2{
+    color: red;
+    text-align: center;
+}
+input, select,textarea{
+    float: right;
+}
+
+.fullname input{
+    width: 400px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+.email input{
+    width: 400px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+.country select{
+    width: 405px;
+    height: 40px;
+    margin-bottom: 5px;
+}
+p{
+    margin-left: 30px;
+    width: 100px;
+    padding-top: 10px;
+}
+.fullname{
+    width: 95%;
+    margin-right:  auto;
+}
+.email{
+    width: 95%;
+    margin-right:  auto;
+}
+.country{
+    width: 95%;
+    margin-right:  auto;
+}
+.subject{
+    width: 95%;
+    margin-right:  auto;
+}
+/* thay font của placeholder trong input tag */
+input[type="text"] {
+    font-family: monospace;
+    font-size: 14px;
+    padding-left: 3px;
+  }
+textarea{
+    font-family: monospace;
+    font-size: 14px;
+    padding-left: 3px;
+    width: 400px;
+    height: 200px;
+    margin-bottom: 5px;
+}
+ /* ------Tạo border radius cho input, select tag --------- */
+.fullname input,
+.email input,
+.subject textarea
+{
+    border: 1px solid #C2C2C2;
+    border-radius: 3px;
+}
+.country select{
+    border: 1px solid #C2C2C2;
+    border-radius: 3px;
+}
+/* ----------css cho butter submit ------------------ */
+
+.button{
+    background-color: #4DB151;
+    width: 100px;
+    height: 25px;
+    padding-top: 8px;
+    border-radius: 3px;
+    margin-left: 470px;
+    text-align: center;
+    margin-right:  auto;
+    transition: 2s;
+}
+.button:hover{
+    box-shadow:0 0 2px 2px #B5B5B5;
+    transition: 0.1s;
+}
+.button a{
+    color: white;
+    text-decoration: none;
+}
+
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+

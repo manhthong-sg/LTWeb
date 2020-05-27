@@ -1,0 +1,23 @@
+.dva img {
+    float: left;
+}
+.dva{
+    width: 500px;
+}
+
+.dva div{
+    padding-left: 50px;
+}
+/*CSS doan van b*/
+.dvb{
+    width: 500px;
+}
+.dvb .dvb1 img{
+    float: left;
+}
+.dvb .dvb2 img{
+    float: right;
+}
+.dvb div{
+    padding-left: 50px;
+}

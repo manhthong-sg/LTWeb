@@ -1,0 +1,33 @@
+
+.container div{
+    width: 250px;
+    height: 200px;
+    color: orange;
+    /* display: inline-table; */
+    box-sizing: border-box;
+}
+.container{
+    
+}
+.col1{
+    background-color: #5AC4ED;
+    margin: 5px 5px;
+    float: left;
+}
+.col2{    
+    background-color: white;
+    border: 15px #47699A solid;
+    margin: 5px 5px;
+    padding: 10px;
+    float: left;
+}
+
+.col3{
+    background-color: #3D2CA5;
+    border: 15px #A0A0A0 solid;
+    margin: 5px 5px;
+    padding: 20px;
+    float: left;
+}
+
+
